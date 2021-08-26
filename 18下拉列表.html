@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        window.onload = function(){
+            var xuanz = document.getElementById("a");
+            xuanz.onchange=function(){
+                alert(xuanz.value)
+            }
+        }
+    </script>
+    <select name="" id="a">
+        <option value="">--请选择---</option>
+        <option value="001">贵州省</option>
+        <option value="002">四川省</option>
+        <option value="003">广东省</option>
+        <option value="004">湖南省</option>
+    </select>
+</body>
+</html>
